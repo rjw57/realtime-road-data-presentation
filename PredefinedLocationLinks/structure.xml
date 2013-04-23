@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<d2LogicalModel>
+  <payloadPublication>
+    <publicationTime>
+      2013-04-18T12:18:34+01:00
+    </publicationTime>
+    <predefinedLocationSet>
+      <predefinedLocation>
+	<!-- ... -->
+      </predefinedLocation>
+      <!-- etc, etc -->
+    </predefinedLocationSet>
+  </payloadPublication>
+</d2LogicalModel>

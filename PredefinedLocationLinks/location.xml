@@ -1,0 +1,18 @@
+<predefinedLocation id="Link12345">
+  <predefinedLocation>
+    <tpeglinearLocation>
+      <to>
+	<pointCoordinates>
+	  <latitude>52.892544</latitude>
+	  <longitude>-1.775278</longitude>
+	</pointCoordinates>
+      </to>
+      <from>
+	<pointCoordinates>
+	  <latitude>52.891373</latitude>
+	  <longitude>-1.768254</longitude>
+	</pointCoordinates>
+      </from>
+    </tpeglinearLocation>
+  </predefinedLocation>
+</predefinedLocation>

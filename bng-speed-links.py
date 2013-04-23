@@ -1,0 +1,8 @@
+im = imread('bng-map.png')
+imshow(im, extent=(1e5, 7e5, 0, 7e5))
+lc = LineCollection(transformed_points, cmap=cm.spectral)
+lc.set_array(speed)
+gca().add_collection(lc)
+xlabel('Easting / m')
+ylabel('Northing / m')
+axis('image')

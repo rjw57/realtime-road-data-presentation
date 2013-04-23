@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<d2LogicalModel xmlns="http://datex2.eu/schema/1_0/1_0" modelBaseVersion="1.0">
+  <exchange>
+    <supplierIdentification>
+      <country>gb</country>
+      <nationalIdentifier>NTCC</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:type="PredefinedLocationsPublication" lang="en">
+    <publicationTime>2013-04-18T12:18:34+01:00</publicationTime>
+    <publicationCreator>
+      <country>gb</country>
+      <nationalIdentifier>NTCC</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <areaOfInterest>national</areaOfInterest>
+      <confidentiality>restrictedToAuthoritiesTrafficOperatorsAndPublishers</confidentiality>
+      <informationUsage>broadcast</informationUsage>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <predefinedLocationSet id="GUID-NTCC-Links">
+      <predefinedLocationSetName>
+        <value lang="en">NTCC Network Links</value>
+      </predefinedLocationSetName>
+      <predefinedLocation id="Link114001101">
+        <predefinedLocationName>
+          <value lang="en">A50 westbound exit for A515 near Sudbury (west)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>westBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.892544</latitude>
+                <longitude>-1.775278</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.891373</latitude>
+                <longitude>-1.768254</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001301">
+        <predefinedLocationName>
+          <value lang="en">A50 eastbound exit for A515 near Sudbury (west)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>eastBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894306</latitude>
+                <longitude>-1.774793</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894894</latitude>
+                <longitude>-1.780513</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001501">
+        <predefinedLocationName>
+          <value lang="en">A50 eastbound between A518 and A515 near Sudbury (west)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>eastBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGNonJunctionPoint">
+              <pointCoordinates>
+                <latitude>52.91024</latitude>
+                <longitude>-1.827379</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en">Node1140015</value>
+                </descriptor>
+                <tpegDescriptorType>pointName</tpegDescriptorType>
+              </name>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.90757</latitude>
+                <longitude>-1.852577</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A518</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001601">
+        <predefinedLocationName>
+          <value lang="en">A50 eastbound between A518 and A515 near Sudbury (west)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>eastBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894894</latitude>
+                <longitude>-1.780513</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGNonJunctionPoint">
+              <pointCoordinates>
+                <latitude>52.91024</latitude>
+                <longitude>-1.827379</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en">Node1140015</value>
+                </descriptor>
+                <tpegDescriptorType>pointName</tpegDescriptorType>
+              </name>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001702">
+        <predefinedLocationName>
+          <value lang="en">A50 westbound between A515 near Sudbury (west) and A518</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>westBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGNonJunctionPoint">
+              <pointCoordinates>
+                <latitude>52.910027</latitude>
+                <longitude>-1.827588</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en">Node1140017</value>
+                </descriptor>
+                <tpegDescriptorType>pointName</tpegDescriptorType>
+              </name>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894794</latitude>
+                <longitude>-1.780632</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001801">
+        <predefinedLocationName>
+          <value lang="en">A50 westbound access from A515 near Sudbury (west)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>westBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894794</latitude>
+                <longitude>-1.780632</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.892673</latitude>
+                <longitude>-1.775976</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114001802">
+        <predefinedLocationName>
+          <value lang="en">A50 westbound within the A515 near Sudbury (west) junction</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>westBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.894794</latitude>
+                <longitude>-1.780632</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.891373</latitude>
+                <longitude>-1.768254</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link111047101">
+        <predefinedLocationName>
+          <value lang="en">A50 westbound between A515 near Sudbury (west) and A518</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>westBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.90729</latitude>
+                <longitude>-1.852534</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A518</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGNonJunctionPoint">
+              <pointCoordinates>
+                <latitude>52.910027</latitude>
+                <longitude>-1.827588</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en">Node1140017</value>
+                </descriptor>
+                <tpegDescriptorType>pointName</tpegDescriptorType>
+              </name>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+      <predefinedLocation id="Link114000101">
+        <predefinedLocationName>
+          <value lang="en">roundabout at A50/A515 near Sudbury (east)</value>
+        </predefinedLocationName>
+        <predefinedLocation xsi:type="Linear">
+          <tpeglinearLocation>
+            <tpegDirection>eastBound</tpegDirection>
+            <tpegLocationType>segment</tpegLocationType>
+            <to xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.884</latitude>
+                <longitude>-1.753254</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </to>
+            <from xsi:type="TPEGJunction">
+              <pointCoordinates>
+                <latitude>52.88409</latitude>
+                <longitude>-1.754189</longitude>
+              </pointCoordinates>
+              <name>
+                <descriptor>
+                  <value lang="en"></value>
+                </descriptor>
+                <tpegDescriptorType>junctionName</tpegDescriptorType>
+              </name>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A50</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName1</tpegDescriptorType>
+              </ilc>
+              <ilc>
+                <descriptor>
+                  <value lang="en">A515</value>
+                </descriptor>
+                <tpegDescriptorType>tpegILCName2</tpegDescriptorType>
+              </ilc>
+            </from>
+          </tpeglinearLocation>
+        </predefinedLocation>
+      </predefinedLocation>
+    </predefinedLocationSet>
+  </payloadPublication>
+</d2LogicalModel>

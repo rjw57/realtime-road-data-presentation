@@ -1,0 +1,8 @@
+<script>
+  <character>
+    <name>James Kirk</name> <actor>William Shatner</actor>
+  </character>
+  <character>
+    <name>Spock</name> <actor>Leonard Nimoy</actor>
+  </character>
+</script>
