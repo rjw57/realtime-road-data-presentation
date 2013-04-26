@@ -1,8 +1,6 @@
-link_data = {
-    'Link1234': {
-        'location_id': 'Link1234',
-        'speed': 48.5
-    },
+link_speeds = {
+    'Link1234': 48.5,
+    'Link90210': 119.4,
 
     # etc, etc
 }
